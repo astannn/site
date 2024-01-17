@@ -1,0 +1,15 @@
+%flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin text ($color, $ff, $fz, $fs, $fw, $ln, $letter-spacing) {
+    color: $color;
+    font-family: $ff;
+    font-size: $fs;
+    font-style: $fz;
+    font-weight: $fw;
+    line-height: $ln;
+    letter-spacing: $letter-spacing;
+}

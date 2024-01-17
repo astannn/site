@@ -1,0 +1,13 @@
+@import './base/vars.scss';
+@import './base/reset.scss';
+@import './base/mixins.scss';
+@import './blocks/header.scss';
+@import './blocks/practise.scss';
+@import './blocks/education.scss';
+@import './blocks/teatcher.scss';
+@import './blocks/join.scss';
+@import './blocks/footer.scss'; 
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
